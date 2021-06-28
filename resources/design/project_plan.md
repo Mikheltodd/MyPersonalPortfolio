@@ -7,7 +7,7 @@
 2. Tasks: 
 
 > * [x] Plan the project: visualize end result. It must satisfies project objectives. Define basic structure of the project and create a timeline. (1 hour) 
-> * [ ] Wireframe the website: how do you want your portfolio to look like?
+> * [x] Wireframe the website: how do you want your portfolio to look like?
 > Think about what the main components of the site will be and how you would like to see them arranged on the page. Since you will be building multiple pages, make sure to create wireframes for each page. Main components that you will want to include:
 >   * A main header
 >   * Navigation to take you to all the pages on your site

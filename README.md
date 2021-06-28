@@ -45,9 +45,18 @@
 
 
 ## Screenshots
-![Design](./img/design.png)
 
+> Home Design Part 1
 
+![Home Design (Part 1)](resources/design/DesignHome_1.png)
+
+> Home Design Part 2
+
+![Home Design (Part 1)](resources/design/DesignHome_2.png)
+
+> Contact Design
+> 
+![Contact Design](resources/design/DesignContact.png)
 
 ## Setup
 
