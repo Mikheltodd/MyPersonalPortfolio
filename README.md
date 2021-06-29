@@ -99,3 +99,4 @@ Created by <a href="https://github.com/Mikheltodd" target="_blank">@Mikheltodd</
 
 ## License
 This project is open source.
+Personal logos should not be used without authorization (personal brand of Mikheltodd). 

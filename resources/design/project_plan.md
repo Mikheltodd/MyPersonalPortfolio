@@ -13,8 +13,8 @@
 >   * Navigation to take you to all the pages on your site
 >   * A picture and title for each project
 
-> * [ ] Create files and deploy it Locally: deploy your code locally to see what it looks like in the browser. Create an index.html, style.css, and script.js files. If you’re creating additional pages, make sure to add additional .html files to represent that content.
-> * [ ] Version Control: Set up Git tracking in your directory and make sure to add and commit changes as you make them.
+> * [x] Create files and deploy it Locally: deploy your code locally to see what it looks like in the browser. Create an index.html, style.css, and script.js files. If you’re creating additional pages, make sure to add additional .html files to represent that content.
+> * [x] Version Control: Set up Git tracking in your directory and make sure to add and commit changes as you make them.
 > * [ ] Build the Home Page: The home page will be the main page that users visit. It should prominently feature your name, along with a selection of several projects that you are most proud of. Each project should have a picture, a summary of the project, and the technology used to build it.
 > * [ ] Build the Contact Page: The contact page includes your email address, as well as any other relevant information such as your LinkedIn profile or a personal photo.
 > * [ ] Style the content: Now that you have your content, consider how you would like it to look. 

@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Portfolio</title>
     <link
+      rel="shortcut icon"
+      href="./resources/img/myLogo.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="./resources/img/myLogo.ico" type="image/x-icon" />
+    <link
       rel="stylesheet"
       type="text/css"
       href="./resources/css/normalize.css"
@@ -14,8 +20,167 @@
   </head>
   <body>
     <header>
-      <h1>My Personal Portfolio Website</h1>
-      <h2>by Mikheltodd</h2>
+      <div class="personal-brand">
+        <img src="./resources/img/myLogo.png" alt="logo personal" />
+        <span class="page-title">My Personal Portfolio Website</span>
+        <span class="page-author">by Mikheltodd</span>
+      </div>
+      <nav>
+        <span><a href="#Home">Home</a></span>
+        <span><a href="#About">About Me</a></span>
+        <span><a href="#Projects">Projects</a></span>
+        <span><a href="#Skills">Skills</a></span>
+        <span><a href="./contact.html">Contact</a></span>
+      </nav>
     </header>
+    <main>
+      <section id="Home">
+        <div class="banner-top">
+          <span>Welcome, My Friend</span>
+        </div>
+      </section>
+      <section id="About">
+        <div class="info-card-left">
+          <div class="info-block">
+            <h2>About Me</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+              sit dolorem nulla aliquid accusantium est? Sunt asperiores ratione
+              tempora, praesentium, voluptatibus repudiandae possimus pariatur
+              ab eum labore, soluta illo voluptate eligendi voluptatum neque at.
+              Voluptas voluptatem accusantium neque pariatur eveniet iure!
+              Consequatur aspernatur sequi iusto nisi minima maxime. Id, ipsam.
+            </p>
+          </div>
+          <figure class="info-image">
+            <img src="" alt="personal image" />
+            <figcaption></figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="Projects">
+        <h2>Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro est
+          alias quaerat nemo accusamus enim!
+        </p>
+        <div class="cards-container">
+          <div class="project-card">
+            <figure>
+              <img src="" alt="project 1 image" />
+              <figcaption>
+                <details>
+                  <summary>
+                    <h3>Project 1</h3>
+                  </summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                    molestias libero?
+                  </p>
+                </details>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project-card">
+            <figure>
+              <img src="" alt="project 2 image" />
+              <figcaption>
+                <details>
+                  <summary>
+                    <h3>Project 2</h3>
+                  </summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                    molestias libero?
+                  </p>
+                </details>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project-card">
+            <figure>
+              <img src="" alt="project 3 image" />
+              <figcaption>
+                <details>
+                  <summary><h3>Project 3</h3></summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                    molestias libero?
+                  </p>
+                </details>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="Skills">
+        <h2>Skills</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro est
+          alias quaerat nemo accusamus enim!
+        </p>
+        <div class="skills-container">
+          <div class="skill-card">
+            <figure>
+              <img src="" alt="skill 1 image" />
+              <figcaption>
+                <h3>Skill 1</h3>
+                <span>Level: Intermediate</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="skill-card">
+            <figure>
+              <img src="" alt="skill 2 image" />
+              <figcaption>
+                <h3>Skill 2</h3>
+                <span>Level: Intermediate</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="skill-card">
+            <figure>
+              <img src="" alt="skill 3 image" />
+              <figcaption>
+                <h3>Skill 3</h3>
+                <span>Level: Intermediate</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="skill-card">
+            <figure>
+              <img src="" alt="skill 4 image" />
+              <figcaption>
+                <h3>Skill 4</h3>
+                <span>Level: Intermediate</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="skill-card">
+            <figure>
+              <img src="" alt="skill 5 image" />
+              <figcaption>
+                <h3>Skill 5</h3>
+                <span>Level: Intermediate</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="blank-space">
+        <div class="banner-bottom">
+          <p>Message</p>
+          <button>Click Me</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span class="page-title">My Personal Portfolio Website</span>
+      <span class="page-author">by Mikheltodd</span>
+      <span>&copy; 2021</span>
+    </footer>
   </body>
 </html>
