@@ -7,10 +7,10 @@
     <title>My Personal Portfolio</title>
     <link
       rel="shortcut icon"
-      href="./resources/img/myLogo.ico"
+      href="./resources/img/logos/myLogo.ico"
       type="image/x-icon"
     />
-    <link rel="icon" href="./resources/img/myLogo.ico" type="image/x-icon" />
+    <link rel="icon" href="./resources/img/logos/myLogo.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -24,7 +24,7 @@
   <body>
     <header>
       <div class="personal-brand">
-        <img src="./resources/img/myLogo.png" alt="logo personal" />
+        <img src="./resources/img/logos/myLogo.png" alt="logo personal" />
         <div class="brand-text">
           <p class="page-title">My Personal Portfolio</p>
           <p class="page-author">by Mikheltodd</p>
@@ -32,7 +32,7 @@
       </div>
       <nav>
         <ul class="nav-items">
-          <li class="nav-item"><a href="#Home">Home</a></li>
+          <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#About">About Me</a></li>
           <li class="nav-item"><a href="#Projects">Projects</a></li>
           <li class="nav-item"><a href="#Skills">Skills</a></li>
@@ -41,152 +41,154 @@
       </nav>
     </header>
     <main>
-      <section id="Home">
+      <div class="overlay">
         <div class="banner-top">
-          <span>Welcome, My Friend</span>
+          <h1>Welcome, My Friend</h1>
         </div>
-      </section>
-      <section id="About">
-        <div class="info-card-left">
-          <div class="info-block">
-            <h2>About Me</h2>
-            <p>
-              My name is Mikheltodd and I'm an Electrical Engineer. I work as a
-              teacher and I'm learning web development. I've been practicing
-              programming for almost a year at a moderate pace, but now I've
-              found out how fun and entertaining this is.
-            </p>
-            <p>
-              I'm enrolled on the Codecademy's Full Stack Path and after
-              concluding this course, I'm planning on taking the Data Science
-              Path. I think these courses complement each other especially in
-              academy, where I'll try to put them in practice for college
-              projects involving measuring electrical parameters, calculating
-              power and energy variables and analyzing the results through a
-              webpage.
-            </p>
-          </div>
-          <figure class="info-image">
-            <img src="./resources/img/about_me.png" alt="personal image" />
-            <figcaption></figcaption>
-          </figure>
-      </section>
-      <section id="Projects">
-        <h2>Projects</h2>
-        <p>
-          Here you can watch and learn about some of the projects I've been working on and maybe share some ideas to improve and build more. If you'd like to provide me with some feedback, don't hesitate and <a href="./contact.html">contact me</a>.
-        </p>
-        <div class="cards-container">
-          <div class="project-card">
-            <figure>
-              <img src="" alt="project 1 image" />
-              <figcaption>
-                <details>
-                  <summary>
-                    <h3>Project 1</h3>
-                  </summary>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
-                    molestias libero?
-                  </p>
-                </details>
-              </figcaption>
+      </div>
+      <div class="main-container">        
+        <div></div>
+        <div class="content"><section id="About">
+          <div class="info-card-left">
+            <div class="info-block">
+              <h2>About Me</h2>
+              <p>
+                My name is Mikheltodd and I'm an Electrical Engineer. I work as a
+                teacher and I'm learning web development. I've been practicing
+                programming for almost a year at a moderate pace, but now I've
+                found out how fun and entertaining this is.
+              </p>
+              <p>
+                I'm enrolled on the Codecademy's Full Stack Path and after
+                concluding this course, I'm planning on taking the Data Science
+                Path. I think these courses complement each other especially in
+                academy, where I'll try to put them in practice for college
+                projects involving measuring electrical parameters, calculating
+                power and energy variables and analyzing the results through a
+                webpage.
+              </p>
+            </div>
+            <figure class="info-image">
+              <img src="./resources/img/personal/about_me.png" alt="personal image" />
+              <figcaption></figcaption>
             </figure>
+        </section>
+        <section id="Projects">
+          <h2>Projects</h2>
+          <p>
+            Here you can watch and learn about some of the projects I've been working on and maybe share some ideas to improve and build more. If you'd like to provide me with some feedback, don't hesitate and <a href="./contact.html">contact me</a>.
+          </p>
+          <div class="cards-container">
+            <div class="project-card">
+              <figure>
+                <img src="./resources/img/projects/project_1.jpeg" alt="project 1 image" />
+                <figcaption>
+                  <details>
+                    <summary>
+                      <h3>Project 1</h3>
+                    </summary>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                      molestias libero?
+                    </p>
+                  </details>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="project-card">
+              <figure>
+                <img src="./resources/img/projects/project_2.jpeg" alt="project 2 image" />
+                <figcaption>
+                  <details>
+                    <summary>
+                      <h3>Project 2</h3>
+                    </summary>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                      molestias libero?
+                    </p>
+                  </details>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="project-card">
+              <figure>
+                <img src="./resources/img/projects/project_3.jpeg" alt="project 3 image" />
+                <figcaption>
+                  <details>
+                    <summary><h3>Project 3</h3></summary>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Assumenda in optio ipsum. Amet id hic in recusandae quisquam
+                      molestias libero?
+                    </p>
+                  </details>
+                </figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="project-card">
-            <figure>
-              <img src="" alt="project 2 image" />
-              <figcaption>
-                <details>
-                  <summary>
-                    <h3>Project 2</h3>
-                  </summary>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
-                    molestias libero?
-                  </p>
-                </details>
-              </figcaption>
-            </figure>
+        </section>
+        <section id="Skills">
+          <h2>Skills</h2>
+          <p>
+            Here you can know some of the skills I've been acquiring in the development of my professional career. Most of the programming-related skills have been acquired in a self-taught way, but I would like to give credits to Codecademy, Universidad Nacional de Colombia (Misión TIC 2022) and Google Search (stackoverflow, MDN and w3school).
+          </p>
+          <div class="skills-container">
+            <div class="skill-card">
+              <figure>
+                <img src="./resources/img/logos/html.svg" alt="HTML image" />
+                <figcaption>
+                  <h3>HTML</h3>
+                  <span>Level: Intermediate</span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="skill-card">
+              <figure>
+                <img src="./resources/img/logos/css.svg" alt="CSS image" />
+                <figcaption>
+                  <h3>CSS</h3>
+                  <span>Level: Intermediate</span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="skill-card">
+              <figure>
+                <img src="./resources/img/logos/javascript.svg" alt="JS image" />
+                <figcaption>
+                  <h3>JavaScript</h3>
+                  <span>Level: Basic</span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="skill-card">
+              <figure>
+                <img src="./resources/img/logos/python.svg" alt="Python image" />
+                <figcaption>
+                  <h3>Python</h3>
+                  <span>Level: Basic</span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="skill-card">
+              <figure>
+                <img src="./resources/img/logos/git.svg" alt="Git image" />
+                <figcaption>
+                  <h3>Git</h3>
+                  <span>Level: Basic</span>
+                </figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="project-card">
-            <figure>
-              <img src="" alt="project 3 image" />
-              <figcaption>
-                <details>
-                  <summary><h3>Project 3</h3></summary>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Assumenda in optio ipsum. Amet id hic in recusandae quisquam
-                    molestias libero?
-                  </p>
-                </details>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-      <section id="Skills">
-        <h2>Skills</h2>
-        <p>
-          Here you can know some of the skills I've been acquiring in the development of my professional career. Most of the programming-related skills have been acquired in a self-taught way, but I would like to give credits to Codecademy, Universidad Nacional de Colombia (Misión TIC 2022) and Google Search (stackoverflow, MDN and w3school).
-        </p>
-        <div class="skills-container">
-          <div class="skill-card">
-            <figure>
-              <img src="./resources/img/html.png" alt="HTML image" />
-              <figcaption>
-                <h3>HTML</h3>
-                <span>Level: Intermediate</span>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="skill-card">
-            <figure>
-              <img src="./resources/img/css.png" alt="CSS image" />
-              <figcaption>
-                <h3>CSS</h3>
-                <span>Level: Intermediate</span>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="skill-card">
-            <figure>
-              <img src="./resources/img/javascript.png" alt="JS image" />
-              <figcaption>
-                <h3>JavaScript</h3>
-                <span>Level: Basic</span>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="skill-card">
-            <figure>
-              <img src="./resources/img/python.png" alt="Python image" />
-              <figcaption>
-                <h3>Python</h3>
-                <span>Level: Basic</span>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="skill-card">
-            <figure>
-              <img src="./resources/img/git.png" alt="Git image" />
-              <figcaption>
-                <h3>Git</h3>
-                <span>Level: Basic</span>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-      <section class="blank-space">
-        <div class="banner-bottom">
-          <p>Message</p>
-          <button>Click Me</button>
-        </div>
-      </section>
+        </section></div>
+        <div></div>
+      </div>
+      <div class="banner-bottom">
+        <p>Message</p>
+        <button>Click Me</button>
+      </div>
     </main>
     <footer>
       <span class="page-title">My Personal Portfolio Website</span>

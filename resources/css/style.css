@@ -90,9 +90,67 @@ a:active,
 
 /* ------------- Start Main --------------- */
 main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------- Start Banner --------------- */
+.banner-top,
+.banner-bottom {
+  background: #2e2cac;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.banner-top {
+  background-image: url(../img/banners/banner_top.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+}
+
+.banner-bottom {
+  height: 10em;
+}
+
+.overlay:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 20em;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.overlay * {
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5em;
+  z-index: 2;
+}
+/* ------------- End Banner --------------- */
+
+/* ------------- Start Main Container --------------- */
+.main-container {
+  display: flex;
+}
+
+.content {
   background-color: whitesmoke;
   color: #070035;
 }
+
+/* ------------- End Main Container --------------- */
 
 /* ------------- End Main --------------- */
 
@@ -106,9 +164,23 @@ img {
 }
 .skill-card img,
 .social-media img {
-  max-height: 4em;
+  max-height: 2.75em;
 }
-
+.info-image img {
+  max-height: 20em;
+}
+.project-card figure {
+  /* border: 0.5em whitesmoke solid;
+  display: flex;
+  margin: 2em;
+  padding: 0.25em; */
+  max-width: 15em;
+  overflow: hidden;
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+}
 /* ------------- End Images --------------- */
 
 /* ------------- Start Footer --------------- */
@@ -155,7 +227,50 @@ img {
   /* -------------End Header & Links --------------- */
 
   /* ------------- Start Main --------------- */
+  /* ------------- Start Banner --------------- */
+  .banner-top {
+    height: 25em;
+  }
+
+  .banner-bottom {
+    height: 12.5em;
+  }
+
+  .overlay:before {
+    height: 25em;
+  }
+  .overlay * {
+    position: relative;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+  /* ------------- End Banner --------------- */
+  /* ------------- Start Main Container --------------- */
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+  }
+  /* ------------- End Main Container --------------- */
   /* ------------- End Main --------------- */
+
+  /* ------------- Start Images --------------- */
+  img {
+    height: 100%;
+    width: auto;
+  }
+  .personal-brand img {
+    max-height: 4.375em;
+  }
+  .skill-card img,
+  .social-media img {
+    max-height: 4em;
+  }
+  .info-image img {
+    max-height: 25em;
+  }
+  /* ------------- End Images --------------- */
 
   /* ------------- Start Footer --------------- */
 

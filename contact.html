@@ -7,21 +7,31 @@
     <title>My Personal Portfolio</title>
     <link
       rel="shortcut icon"
-      href="./resources/img/myLogo.ico"
+      href="./resources/img/logos/myLogo.ico"
       type="image/x-icon"
     />
-    <link rel="icon" href="./resources/img/myLogo.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="./resources/img/logos/myLogo.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       type="text/css"
       href="./resources/css/normalize.css"
     />
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="personal-brand">
-        <img src="./resources/img/myLogo.png" alt="logo personal" />
+        <img src="./resources/img/logos/myLogo.png" alt="logo personal" />
         <div class="brand-text">
           <p class="page-title">My Personal Portfolio</p>
           <p class="page-author">by Mikheltodd</p>
@@ -29,7 +39,7 @@
       </div>
       <nav>
         <ul class="nav-items">
-          <li class="nav-item"><a href="./index.html#Home">Home</a></li>
+          <li class="nav-item"><a href="./index.html">Home</a></li>
           <li class="nav-item"><a href="./index.html#About">About Me</a></li>
           <li class="nav-item"><a href="./index.html#Projects">Projects</a></li>
           <li class="nav-item"><a href="./index.html#Skills">Skills</a></li>
@@ -39,46 +49,66 @@
     </header>
 
     <main>
-      <section id="About">
-        <div class="info-card-right">
-          <figure class="info-image">
-            <img src="./resources/img/contact_me.png" alt="personal image" />
-            <figcaption></figcaption>
-          </figure>
-          <div class="info-block">
-            <h2>Contact Me</h2>
-            <p>
-              If you want to reach me, just text me and I'll answer you as soon
-              as possible. I'll be more than pleasured to talk and help you
-              within my possibilities.
-            </p>
-            <div class="social-media">
-              <a
-                href="https://www.linkedin.com/in/miguel-angel-ortiz-padilla-40666985/"
-                target="_blank"
-                ><img src="./resources/img/linkedin.png" alt="linkedin logo"
-              /></a>
-              <a href="https://t.me/Mikheltodd" target="_blank"
-                ><img src="./resources/img/telegram.png" alt="telegram logo"
-              /></a>
-              <a
-                href="https://www.facebook.com/miguel.ortiz11235/"
-                target="_blank"
-                ><img src="./resources/img/facebook.png" alt="facebook logo"
-              /></a>
-              <a href="mailto: miguel.ortiz1125@gmail.com" target="_blank"
-                ><img src="./resources/img/gmail.png" alt="gmail logo"
-              /></a>
+      <div class="overlay">
+        <div class="banner-top">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <div class="main-container">
+        <div></div>
+        <div class="content">
+          <section id="About">
+            <div class="info-card-right">
+              <figure class="info-image">
+                <img
+                  src="./resources/img/personal/contact_me.png"
+                  alt="personal image"
+                />
+                <figcaption></figcaption>
+              </figure>
+              <div class="info-block">
+                <h2>Contact Me</h2>
+                <p>
+                  If you want to reach me, just text me and I'll answer you as
+                  soon as possible. I'll be more than pleasured to talk and help
+                  you within my possibilities.
+                </p>
+                <div class="social-media">
+                  <a
+                    href="https://www.linkedin.com/in/miguel-angel-ortiz-padilla-40666985/"
+                    target="_blank"
+                    ><img
+                      src="./resources/img/logos/linkedin.svg"
+                      alt="linkedin logo"
+                  /></a>
+                  <a href="https://t.me/Mikheltodd" target="_blank"
+                    ><img
+                      src="./resources/img/logos/telegram.svg"
+                      alt="telegram logo"
+                  /></a>
+                  <a
+                    href="https://www.facebook.com/miguel.ortiz11235/"
+                    target="_blank"
+                    ><img
+                      src="./resources/img/logos/facebook.svg"
+                      alt="facebook logo"
+                  /></a>
+                  <a href="mailto: miguel.ortiz1125@gmail.com" target="_blank"
+                    ><img
+                      src="./resources/img/logos/gmail.svg"
+                      alt="gmail logo"
+                  /></a>
+                </div>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
-      </section>
-      <section class="blank-space">
-        <div class="banner-bottom">
-          <p>Message</p>
-          <button>Click Me</button>
-        </div>
-      </section>
+        <div></div>
+      </div>
+      <div class="banner-bottom">
+        <p>Message</p>
+        <button>Click Me</button>
+      </div>
     </main>
     <footer>
       <span class="page-title">My Personal Portfolio Website</span>
