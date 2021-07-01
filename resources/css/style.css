@@ -168,18 +168,19 @@ h1 {
 }
 
 /* ------------- Start Mobile About --------------- */
-.info-card-left,
-.info-card-right {
+.info-card-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1em;
+  text-align: center;
 }
 
 .info-image {
   display: flex;
-  max-height: 20em;
+  max-height: 18em;
   min-width: 15em;
+  margin: 0;
 }
 
 .info-image img {
@@ -243,7 +244,7 @@ details[open] summary {
 }
 
 .skill-card figure {
-  max-width: 7.5em;
+  max-width: 7em;
   min-height: 10em;
   flex-direction: column;
   justify-content: space-around;
@@ -260,6 +261,27 @@ details[open] summary {
 
 /* ------------- End Mobile Skills --------------- */
 
+/* ------------- Start Mobile Contact --------------- */
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.social-media figure {
+  max-width: 7em;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 1.25em;
+}
+
+.social-media img {
+  max-height: 3em;
+}
+/* ------------- End Mobile Contact --------------- */
+
 /* ------------- End Mobile Sections --------------- */
 
 /* ------------- End Mobile Main Container --------------- */
@@ -267,7 +289,13 @@ details[open] summary {
 /* ------------- End Mobile Main --------------- */
 
 /* ------------- Start Mobile Footer --------------- */
-
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.5em;
+  margin: 1.5em;
+}
 /* ------------- End Mobile Footer --------------- */
 
 /* ---------------------------- */
@@ -358,10 +386,10 @@ details[open] summary {
   }
 
   /* ------------- Start Desktop About --------------- */
-  .info-card-left,
-  .info-card-right {
+  .info-card-left {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: start;
   }
   /* ------------- End Desktop About --------------- */
 
@@ -381,14 +409,6 @@ details[open] summary {
 
   /* ------------- End Desktop Main Container --------------- */
   /* ------------- End Desktop Main --------------- */
-
-  /* ------------- Start Desktop Images --------------- */
-  .skill-card img,
-  .social-media img {
-    max-height: 4em;
-  }
-
-  /* ------------- End Desktop Images --------------- */
 
   /* ------------- Start Desktop Footer --------------- */
 
