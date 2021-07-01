@@ -26,7 +26,6 @@ body {
 
 header {
   display: flex;
-  max-height: 9em;
   margin: 0.5em;
   justify-content: space-around;
 }
@@ -120,10 +119,6 @@ main {
   height: 20em;
 }
 
-.banner-bottom {
-  height: 10em;
-}
-
 .overlay {
   display: flex;
   background: rgba(0, 0, 0, 0.6);
@@ -138,6 +133,29 @@ h1 {
   font-size: 2.5em;
   z-index: 2;
   line-height: 1.5em;
+}
+
+.banner-bottom {
+  padding: 1.5em;
+}
+
+#random-message {
+  display: none;
+  margin: 0 2em 1em 2em;
+  border-radius: 1em;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#random-button {
+  background-color: green; /* Green */
+  border: none;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 /* ------------- End Mobile Banner --------------- */
 
@@ -270,7 +288,7 @@ details[open] summary {
 }
 
 .social-media figure {
-  max-width: 7em;
+  max-width: 5em;
   flex-direction: column;
   justify-content: space-around;
   justify-items: center;
@@ -292,6 +310,7 @@ details[open] summary {
 footer {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   line-height: 2.5em;
   margin: 1.5em;
@@ -302,14 +321,6 @@ footer {
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-  html {
-    font-size: 16px;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
   /* -------------Start Desktop Header & Links --------------- */
   header {
     margin: 2.5em;
@@ -352,10 +363,6 @@ footer {
   /* ------------- Start Desktop Banner --------------- */
   .banner-top {
     height: 25em;
-  }
-
-  .banner-bottom {
-    height: 12.5em;
   }
 
   .overlay:before {
