@@ -26,7 +26,7 @@ body {
 
 header {
   display: flex;
-  max-height: 150px;
+  max-height: 9em;
   margin: 0.5em;
   justify-content: space-around;
 }
@@ -34,6 +34,10 @@ header {
 .personal-brand {
   display: flex;
   align-items: center;
+}
+
+.personal-brand img {
+  max-height: 4.375em;
 }
 
 .brand-text {
@@ -62,15 +66,15 @@ header {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: darkkhaki;
 }
 
 a:link {
-  color: burlywood;
+  color: coral;
 }
 
 a:visited {
-  color: burlywood;
+  color: coral;
 }
 
 a:hover {
@@ -166,22 +170,6 @@ h1 {
   align-items: center;
   padding: 1em;
 }
-/* ------------- End Mobile About --------------- */
-
-/* ------------- End Mobile Sections --------------- */
-
-/* ------------- End Mobile Main Container --------------- */
-
-/* ------------- End Mobile Main --------------- */
-
-/* ------------- Start Mobile Images --------------- */
-.personal-brand img {
-  max-height: 4.375em;
-}
-.skill-card img,
-.social-media img {
-  max-height: 2.75em;
-}
 
 .info-image {
   display: flex;
@@ -195,19 +183,59 @@ h1 {
   object-fit: contain;
   object-position: center center;
 }
+/* ------------- End Mobile About --------------- */
+
+/* ------------- Start Mobile Projects --------------- */
+#Projects {
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card {
+  border: 1px solid #070035;
+  border-radius: 1em;
+  margin: 1em;
+}
 
 .project-card figure {
-  /* border: 0.5em whitesmoke solid;
-  display: flex;
-  margin: 2em;
-  padding: 0.25em; */
-  max-width: 15em;
+  max-width: 18em;
   overflow: hidden;
+  margin-top: 2em;
 }
 .project-card img {
   width: 100%;
   height: auto;
 }
+
+summary {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+/* ------------- End Mobile Projects --------------- */
+
+/* ------------- End Mobile Sections --------------- */
+
+/* ------------- End Mobile Main Container --------------- */
+
+/* ------------- End Mobile Main --------------- */
+
+/* ------------- Start Mobile Images --------------- */
+
+.skill-card img,
+.social-media img {
+  max-height: 2.75em;
+}
+
 /* ------------- End Mobile Images --------------- */
 
 /* ------------- Start Mobile Footer --------------- */
@@ -307,6 +335,14 @@ h1 {
     justify-content: space-around;
   }
   /* ------------- End Desktop About --------------- */
+
+  /* ------------- Start Desktop Projects --------------- */
+
+  .cards-container {
+    flex-direction: row;
+  }
+
+  /* ------------- End Desktop Projects --------------- */
 
   /* ------------- End Desktop Sections --------------- */
 
