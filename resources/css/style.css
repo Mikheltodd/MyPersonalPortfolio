@@ -57,6 +57,8 @@ header {
 }
 
 .nav-items {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   text-align: end;
   align-items: flex-end;
@@ -160,6 +162,9 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 0.175em solid #070035;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 /* ------------- Start Mobile About --------------- */
@@ -194,16 +199,19 @@ h1 {
   flex-direction: column;
 }
 
-.project-card {
+.project-card,
+.skill-card {
+  display: flex;
   border: 1px solid #070035;
   border-radius: 1em;
   margin: 1em;
+  background-color: #fbffde;
 }
 
 .project-card figure {
   max-width: 18em;
   overflow: hidden;
-  margin-top: 2em;
+  margin: 1.75em;
 }
 .project-card img {
   width: 100%;
@@ -223,20 +231,40 @@ details[open] summary {
 }
 /* ------------- End Mobile Projects --------------- */
 
+/* ------------- Start Mobile Skills --------------- */
+#Skills {
+  text-align: center;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.skill-card figure {
+  max-width: 7.5em;
+  min-height: 10em;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 1.25em;
+}
+
+.skill-card img {
+  min-height: 3em;
+  max-height: 3.5em;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------- End Mobile Skills --------------- */
+
 /* ------------- End Mobile Sections --------------- */
 
 /* ------------- End Mobile Main Container --------------- */
 
 /* ------------- End Mobile Main --------------- */
-
-/* ------------- Start Mobile Images --------------- */
-
-.skill-card img,
-.social-media img {
-  max-height: 2.75em;
-}
-
-/* ------------- End Mobile Images --------------- */
 
 /* ------------- Start Mobile Footer --------------- */
 
@@ -278,6 +306,7 @@ details[open] summary {
 
   .nav-items {
     display: flex;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -343,6 +372,10 @@ details[open] summary {
   }
 
   /* ------------- End Desktop Projects --------------- */
+
+  /* ------------- Start Desktop Skills --------------- */
+
+  /* ------------- End Desktop Skills --------------- */
 
   /* ------------- End Desktop Sections --------------- */
 
