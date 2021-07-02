@@ -60,7 +60,7 @@
 
 ## Setup
 
-Navigate to the website using a web browser. 
+Navigate to the website using a web browser: https://mikheltodd.github.io/MyPersonalPortfolio/
 
 
 ## Usage
