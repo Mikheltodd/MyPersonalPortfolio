@@ -17,13 +17,13 @@
 > * [x] Version Control: Set up Git tracking in your directory and make sure to add and commit changes as you make them. (recurrent task ~5 mins)
 > * [x] Build the Home Page: The home page will be the main page that users visit. It should prominently feature your name, along with a selection of several projects that you are most proud of. Each project should have a picture, a summary of the project, and the technology used to build it. (~45 min)
 > * [x] Build the Contact Page: The contact page includes your email address, as well as any other relevant information such as your LinkedIn profile or a personal photo. (~25 min)
-> * [ ] Style the content: Now that you have your content, consider how you would like it to look. 
-> * [ ] Make it interactive: Use JavaScript to add interactivity to your website. Some possibilities are:
+> * [x] Style the content: Now that you have your content, consider how you would like it to look. 
+> * [x] Make it interactive: Use JavaScript to add interactivity to your website. Some possibilities are:
 >   * Change the style of a photo when someone clicks on it.
 >   * Enable dropdown menus.
 >   * Let users toggle between light and dark mode.
-> * [ ] Make it responsive: Use responsive design to ensure that your page is viewable on multiple devices (desktop, tablet, mobile).
-> * [ ] Publish to the web: Take what you’ve built and use GitHub pages to share with the world. Import your local Git repository to GitHub and enable GitHub pages in the repository settings. Make sure to upload the directory with your index.html file to this repository. Edit the README file with an explanation on your project.
+> * [x] Make it responsive: Use responsive design to ensure that your page is viewable on multiple devices (desktop, tablet, mobile).
+> * [x] Publish to the web: Take what you’ve built and use GitHub pages to share with the world. Import your local Git repository to GitHub and enable GitHub pages in the repository settings. Make sure to upload the directory with your index.html file to this repository. Edit the README file with an explanation on your project.
 
 
 

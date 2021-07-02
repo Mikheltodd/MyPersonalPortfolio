@@ -262,7 +262,7 @@ details[open] summary {
 }
 
 .skill-card figure {
-  max-width: 7em;
+  max-width: 6.5em;
   min-height: 10em;
   flex-direction: column;
   justify-content: space-around;
